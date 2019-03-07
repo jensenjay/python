@@ -7,6 +7,7 @@ def shell_sort(alist):
             
             while i>0:
                 if alist[gap]<alist[i-gap]:
+                    
                     alist[i-gap],alist[i]=alist[i],alist[i-gap]
                 i-=gap
             
